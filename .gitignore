@@ -1,0 +1,39 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+env/
+*/venv/
+*/env/
+rag_solution/
+
+# Environment variables file
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Vector database directory
+vector_db/
+
+# IDE and OS specific files
+.vscode/
+.idea/
+*.DS_Store
+*.suo
+*.user
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Log files
+*.log
+
+# Gradio cache (if any)
+gradio_cached_examples/
