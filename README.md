@@ -132,9 +132,3 @@ your-project-folder/
 └── README.md                 \# This file
 
 ```
-
-## Notes 📝
-
-* The first time you run the script, it will download the Sentence Transformer embedding model (approx. 90MB) and build the ChromaDB vector store, which might take a minute depending on the number of documents.
-* The current script deletes and rebuilds the `vector_db` on each run. You can modify the `create_vector_store` function to load an existing database if preferred.
-```
